@@ -1,12 +1,13 @@
 # AIPlaneTech
 
-📌 README for Movie Recommendation Chatbot 🎬
+📌 Movie Recommendation Chatbot 🎬
 
 🌟 Introduction
 
 This project is a Movie Recommendation Chatbot built using Tkinter (GUI), spaCy (NER), and NLTK (Sentiment Analysis). The chatbot recommends movies based on user input, detects actors or genres using Named Entity Recognition (NER), and analyzes user feedback with VADER Sentiment Analysis.
 
 🚀 Features
+
 ✅ GUI-based chatbot using Tkinter
 ✅ Named Entity Recognition (NER) to extract actor names
 ✅ Genre-based movie recommendations
@@ -15,13 +16,15 @@ This project is a Movie Recommendation Chatbot built using Tkinter (GUI), spaCy 
 ✅ Feedback buttons for better user interaction
 ✅ Exit commands ("exit", "quit", "stop")
 
-📂 Project Structure
 
 📂 Movie-Recommendation-Chatbot
+
 │-- 📜 main.py                   # Main chatbot application
 │-- 📜 requirements.txt          # Required dependencies
 │-- 📜 README.md                 # Project documentation
+
 🔧 Installation & Setup
+
 1️⃣ Install Dependencies
 pip install -r requirements.txt
 cd Movie-Recommendation-Chatbot
