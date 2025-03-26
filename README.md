@@ -39,10 +39,13 @@ pip install -r requirements.txt
 cd Movie-Recommendation-Chatbot
 
 2️⃣ Download NLP Resources
+
 import nltk
+
 import spacy
 
 nltk.download('vader_lexicon')  # For Sentiment Analysis
+
 spacy.cli.download("en_core_web_sm")  # For Named Entity Recognition (NER)
 
 3️⃣  Run the Chatbot
