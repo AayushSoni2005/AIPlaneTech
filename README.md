@@ -25,7 +25,7 @@ This project is a Movie Recommendation Chatbot built using Tkinter (GUI), spaCy 
 
 ### 📂 Movie-Recommendation-Chatbot
 
-│-- 📜 main.py                   # Main chatbot application
+│-- 📜 movieTellerGUI.ipynb                  # Main chatbot application
 
 │-- 📜 requirements.txt          # Required dependencies
 
@@ -49,7 +49,7 @@ nltk.download('vader_lexicon')  # For Sentiment Analysis
 spacy.cli.download("en_core_web_sm")  # For Named Entity Recognition (NER)
 
 3️⃣  Run the Chatbot
-python main.py
+movieTellerGUI.ipynb 
 
 
 ### 📜 How It Works
