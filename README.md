@@ -9,11 +9,17 @@ This project is a Movie Recommendation Chatbot built using Tkinter (GUI), spaCy 
 ### 🚀 Features
 
 ✅ GUI-based chatbot using Tkinter
+
 ✅ Named Entity Recognition (NER) to extract actor names
+
 ✅ Genre-based movie recommendations
+
 ✅ Random movie selection from predefined genres
+
 ✅ Sentiment Analysis on user feedback
+
 ✅ Feedback buttons for better user interaction
+
 ✅ Exit commands ("exit", "quit", "stop")
 
 ### 📂 Movie-Recommendation-Chatbot
