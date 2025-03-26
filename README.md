@@ -22,25 +22,32 @@ This project is a Movie Recommendation Chatbot built using Tkinter (GUI), spaCy 
 
 ✅ Exit commands ("exit", "quit", "stop")
 
+
 ### 📂 Movie-Recommendation-Chatbot
 
 │-- 📜 main.py                   # Main chatbot application
+
 │-- 📜 requirements.txt          # Required dependencies
+
 │-- 📜 README.md                 # Project documentation
+
 
 ### 🔧 Installation & Setup
 
 1️⃣ Install Dependencies
 pip install -r requirements.txt
 cd Movie-Recommendation-Chatbot
+
 2️⃣ Download NLP Resources
 import nltk
 import spacy
 
 nltk.download('vader_lexicon')  # For Sentiment Analysis
 spacy.cli.download("en_core_web_sm")  # For Named Entity Recognition (NER)
+
 3️⃣  Run the Chatbot
 python main.py
+
 
 ### 📜 How It Works
 
@@ -56,6 +63,7 @@ After making a suggestion, the chatbot asks for feedback (Yes/No).
 
 Using Sentiment Analysis (VADER), it determines if the user liked the recommendation.
 
+
 ### 🛠 Technologies Used
 
 Python 🐍
@@ -68,6 +76,7 @@ NLTK (VADER Sentiment Analysis) 📊
 
 Random Module (for movie selection) 🎲
 
+
 ### 🔮 Future Improvements
 
 Improve NER accuracy with a larger movie dataset
@@ -77,6 +86,7 @@ Allow multiple genre/actor input in a single query
 Integrate with an online movie API (e.g., TMDb) for better recommendations
 
 Add voice input and responses
+
 
 ### 🤝 Contributing
 
